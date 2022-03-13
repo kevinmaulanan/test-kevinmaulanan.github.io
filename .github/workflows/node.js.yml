@@ -27,3 +27,5 @@ jobs:
       - run: npm install bundlesize -g
       - run: ls
       - run: bundlesize --config ./bundlesize.json
+      - run: bundlesize --config ./bundlesize.config.json
+      - run: bundlesize
