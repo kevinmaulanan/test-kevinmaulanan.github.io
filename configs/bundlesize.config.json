@@ -1,6 +1,0 @@
-[
-  {
-    "path": "./assets/*",
-    "maxSize": "30 kB"
-  }
-]

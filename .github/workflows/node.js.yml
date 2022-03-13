@@ -25,7 +25,5 @@ jobs:
           cache: "npm"
           cache-dependency-path: "package-lock.json"
       - run: npm install bundlesize -g
-      - run: ls
-      # - run: bundlesize --config ./bundlesize.json
-      # - run: bundlesize --config ./bundlesize.config.json
-      - run: bundlesize
+      - run: bundlesize -f "assets/*.png" -s 1024kB
+      - run: bundlesize -f "assets/*.mp3" -s 1024kB
