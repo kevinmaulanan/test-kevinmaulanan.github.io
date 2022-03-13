@@ -28,4 +28,4 @@ jobs:
       - run: ls
       # - run: bundlesize --config ./bundlesize.json
       # - run: bundlesize --config ./bundlesize.config.json
-      - run: bundlesize -f "assets/*.png" -s 20kB
+      - run: bundlesize
